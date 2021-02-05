@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: 'LexendDeca-Regular';
+    src: local('LexendDeca-Regular'), url(../fonts/LexendDeca-Regular.ttf) format('opentype');
+}
+
+.bg {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    object-fit: none;
+}
+.bg2 {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    object-fit: none;
+    opacity: 0.5;
+}
+
+.card {
+    align-items: center;
+    font-family: LexendDeca-Regular;
+    max-width: 400px;
+    padding: 3rem 2rem;
+    margin: 10px 50px 0 20px;
+    display: inline-block;
+}
+.card2 {
+    align-items: center;
+    font-family: LexendDeca-Regular;
+    max-width: 400px;
+    padding: 3rem 2rem;
+    margin: 10px 50px 0 20px;
+    display: inline-block;
+}
+
+.namesurname {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+p {
+    margin-bottom: 0;
+    text-align: center;
+    padding: 15px 0 0 5px;
+    font-size: 0.9rem;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+input {
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 3px 6px;
+}
+
+/*input placeholder*/
+.form-control::placeholder {
+    color: rgb(206, 205, 205);
+    opacity: 0.8;
+}
+
+.form-control:-ms-input-placeholder {
+    color: rgb(206, 205, 205);
+}
+
+.form-control::-ms-input-placeholder {
+    color: rgb(206, 205, 205);
+}
+
+.card-header {
+    background: transparent;
+    text-align: center;
+}
+
+.btn.enter {
+    background-color: rgb(247, 199, 199);
+    box-shadow: rgba(63, 8, 17, 0.589) 0px 3px 6px;
+    color: indigo;
+    width: 100%;
+}
+
+/*Dashboard*/
+.logo {
+    width: 180px;
+    height: 130px;
+    align-self: center;
+}
+
+.menuitems:nth-child(2){
+    margin-top: 20px;
+}
+.menuitems {
+    display: ruby;
+    font-size: 1.3rem;
+    font-family: unset;
+    padding: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.activemenu{
+    display: ruby;
+    font-size: 1.3rem;
+    font-family: unset;
+    padding: 0.8rem;
+    box-shadow: rgba(46, 91, 255, 0.15) 3px 3px 12px;
+    margin-bottom: 20px;
+}
+
+
+svg {
+    background-color: rgba(251, 235, 204, 0.5);
+    color: #ffb92a;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: rgb(57, 57, 71);
+    padding: .5rem 0.3rem;
+}
+
+.sidebar {
+    height: auto;
+    box-shadow: rgba(46, 91, 255, 0.15) 3px 3px 12px;
+}
+
+/*Navbar*/
+.navigation{
+    display: inline-block;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+
+}
+.btn.add{
+    margin-left: 10px;
+	background-color: #ffb92a;
+    color: darkblue;
+
+}
+
+/*Graphics*/
+.graphic{
+    height: 350px;
+    width: 600px;
+}
+
+.graphic2{
+    height: 350px;
+    width: 300px;
+}
+
+/*stats table*/
+table.table tbody tr td{
+  border-right: 1px solid rgb(255, 166, 0);
+}
+
+.statstable{
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+
+a.log{
+    text-decoration: none;
+    color:black;
+}
